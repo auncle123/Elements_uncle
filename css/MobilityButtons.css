@@ -1,0 +1,25 @@
+
+.MobilityButtons {
+  display: block ;
+  column-count: 2 ;
+  width: 100% ;
+  
+}
+
+.MobilityButtons button{
+  display: block ;
+  font-size: xx-small ;
+}
+
+#Next {
+  float: right ;
+}
+
+#Previous::before {
+  content: " \276E ";
+}
+
+#Next::after {
+  content: " \276F";
+}
+

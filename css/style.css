@@ -1,0 +1,33 @@
+* {
+    font-size: small ;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    
+}
+
+body {
+  user-select :auto ;
+}
+
+h1 {
+  margin-inline :20px ;
+}
+
+h2 {
+  text-align: center ;
+}
+
+main {
+  margin-inline :10px ;
+}
+
+#ar {
+  direction: rtl ;
+}
+
+#red a, td span{
+  color: red ;
+}
+
+bdi {
+  margin: 0px ;
+}

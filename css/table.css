@@ -1,0 +1,50 @@
+
+table {
+  border-collapse: collapse;
+  empty-cells: hide;
+  width: 100%;
+  margin-inline :
+}
+
+th {
+  background: #F0F8FF;
+  border: 1px solid gray;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+
+}
+
+td {
+  border: 1px solid silver;
+  padding-inline :5px ;
+}
+
+td a:first-child::before {
+  content: "<";
+}
+
+td a:first-child::after {
+  content: ">";
+}
+
+td a {
+  color: #000;
+}
+
+tr td:last-of-type{
+  direction: rtl ;
+}
+
+#Tag::before {
+  content: "<";
+}
+
+#Tag::after {
+  content: ">";
+}
+
+#ar {
+  direction: rtl;
+}
